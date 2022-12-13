@@ -2,12 +2,4 @@
 comment0.target=Bird
 comment1.params=
 comment1.target=void\ Fly()
-comment2.params=
-comment2.target=void\ walk()
-comment3.params=
-comment3.target=void\ eat()
-comment4.params=
-comment4.target=void\ swim()
-comment5.params=
-comment5.target=void\ hunt()
-numComments=6
+numComments=2

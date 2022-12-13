@@ -2,10 +2,4 @@
 comment0.target=Fish
 comment1.params=
 comment1.target=void\ fishOutOfWater()
-comment2.params=
-comment2.target=void\ eat()
-comment3.params=
-comment3.target=void\ swim()
-comment4.params=
-comment4.target=void\ hunt()
-numComments=5
+numComments=2

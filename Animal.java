@@ -10,6 +10,15 @@ public class Animal{
     boolean canFly;
     boolean predator;
     
+    public void walk(){
+        if(!hasLegs) {
+            System.out.println("‘I don’t have legs I can’t walk!!!’");
+        } else {
+            energy = energy - 10;
+            System.out.println("*step step* ‘Oh boy I sure do love walking!’"); 
+        }
+    }
+
     public void eat(){
         if (!hungry) { 
             System.out.println("animal is full");
@@ -21,10 +30,13 @@ public class Animal{
     }
 
     public void swim(){
-        if(hasLegs) {
+        if(hasLegs && energy >=20) {
             energy = energy - 10;
             System.out.println("I love legs.");
-        } 
+        }
+        if(hasLegs && energy <20) {
+            System.out.println("I need to eat!");
+        }
         if(!hasLegs && isFish==true) {
             energy = energy - 1;
             System.out.println("You mean you want me to do the thing I do literally every second of every day? Okay.");
